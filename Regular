@@ -1,0 +1,10 @@
+import re
+
+  while True:
+    strRFC=input("Dime tu RFC: ")
+    coincide=re.search("^[A-Z]{4}-[0-9]{6}-[A-Z0-9]{3}$",strRFC)
+    if coincide:
+      print("Tu RFC es correcto.")
+      break
+    else: 
+      print("Es incorrecto. Intentalo otra vez.")
