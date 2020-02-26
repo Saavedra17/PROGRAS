@@ -1,0 +1,16 @@
+import datetime
+DatoStr=input("Dime un dato tipo str: ")
+I_Dato=input("Dime un dato entero: ")
+IDato=int(I_Dato)
+Date_Dato=input("Dime una fecha yyyy/mm/dd: ")
+Anio=Date_Dato[0:4]
+Mes=Date_Dato[5:7]
+Dia=Date_Dato[-2:]
+Date_Dato=datetime.datetime(int(Anio), int(Mes), int(Dia))
+
+print(DatoStr)
+print(type(DatoStr))
+print(IDato)
+print(type(IDato))
+print(Date_Dato)
+print(type(Date_Dato))
