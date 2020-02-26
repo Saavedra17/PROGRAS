@@ -1,0 +1,3 @@
+def main():
+  texto="Hola a todos"
+  print(texto)
