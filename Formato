@@ -1,0 +1,5 @@
+Base= 8
+Altura= 4
+Area=(Base*Altura)/2
+texto=Area
+print(Area)
