@@ -1,3 +1,3 @@
 def main():
-  texto="Hola a todos"
+  texto="Hola a todos" #le asignas un "valor" una variable 
   print(texto)
