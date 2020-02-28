@@ -1,4 +1,4 @@
-import datetime
+import datetime #sirve para usar datos, en este caso de tipo date
 DatoStr=input("Dime un dato tipo str: ")
 I_Dato=input("Dime un dato entero: ")
 IDato=int(I_Dato)
