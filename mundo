@@ -1,2 +1,2 @@
 def main():
-print("Hola a todos")
+print("Hola a todos") #sirve para mostrar lo que quieres
