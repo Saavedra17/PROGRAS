@@ -1,5 +1,6 @@
-Base= 8
-Altura= 4
-Area=(Base*Altura)/2
-texto=Area
-print(Area)
+#en este programa se utiliza el f string, que sirve para usar diferentes valores
+intBase = 7
+intAltura = 5
+fltAreaTriangulo=(intBase*intAltura)/2
+txt = "Area: {2:0.2f} ( {0} por {1} entre dos )"
+print(txt.format(intBase, intAltura, fltAreaTriangulo))
