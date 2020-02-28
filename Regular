@@ -1,10 +1,10 @@
-import re
+import re #sirve para importar el modulo que tu necesitas al momento de crear tu programa
 
-  while True:
+  while True: #crea un loop hasta que se cumpla la condicion que quieres
     strRFC=input("Dime tu RFC: ")
     coincide=re.search("^[A-Z]{4}-[0-9]{6}-[A-Z0-9]{3}$",strRFC)
     if coincide:
       print("Tu RFC es correcto.")
-      break
+      break #sirve para terminar el loop
     else: 
       print("Es incorrecto. Intentalo otra vez.")
